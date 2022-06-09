@@ -1,0 +1,145 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+body {
+    /* Location of the image */
+    /*background-image: url("./img/bg/img01.jpg");*/
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: #464646;
+    }
+
+
+
+.wrapper{
+    position: relative;
+    height: 600px;
+    width: 10%;
+    max-width: 700px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+    background-color: rgba(16, 28, 28, 0.9);
+    border-radius: 10%;
+
+    /*vocation background statements*/
+   /* background-image: url("./img/vocation/male-sorcerer.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position-y: 200px;*/
+
+}
+
+.vocation-image{
+    opacity: 0.6;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+
+.inputs{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+table, th, td{
+    border: none;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table{
+    height: 200px;
+    color:snow;
+    border: none;
+}
+
+
+.character-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none
+    
+
+
+}
+
+.vocation-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.image-player{
+    width: 400px;
+    
+}
+
+.image-player, img{
+    height: 400px
+
+}
+
+
+
+.box-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    
+}
+
+.playerInfo{
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 50px;
+}
+
+.small-info{
+    font-size:small;
+    
+    width: auto;
+}
+
+.h4-info{
+    display: flex;
+    
+} 
