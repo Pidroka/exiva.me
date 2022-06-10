@@ -34,14 +34,17 @@ body {
     position: relative;
     height: 600px;
     width: 10%;
-    max-width: 700px;
+    max-width: 500px;
     min-width: 400px;
+    max-height: 5500px;
     margin: 0 auto;
     padding: 20px;
     resize: both;
-    overflow: auto;
     background-color: rgba(16, 28, 28, 0.9);
     border-radius: 10%;
+    /*testar
+    /*overflow: auto;
+    */
 
     /*vocation background statements*/
    /* background-image: url("./img/vocation/male-sorcerer.png");
@@ -51,9 +54,16 @@ body {
 
 }
 
+.vocation-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .vocation-image{
     opacity: 0.6;
 }
+
 
 
 .logo{
